@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA API</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        var url = "https://api.nasa.gov/planetary/apod?api_key=RsvPzgnHh1gF7yac4ZqP0a0EcbuLLKnKWRKEO5wJ";
+        
+        $.ajax({
+            url: url,
+            success: function(result){
+                console.log(result);
+                if ("date" in result){
+                    $("#date").text(result.date);
+                }  
+                if ("url" in result){
+                    $("h1").text(result.title);
+                    $("img").attr("src", result.url);
+                    $("img").attr("alt", result.title + " image copyright: " + result.copyright);
+                }
+            }
+        })
+
+    </script>
+</head>
+<body>
+    <h1> NASA Page</h1>
+    <p> Today's date is <span id = "date"></span></p>
+    <img src="" id = "img" alt = "">
+</body>
+</html>
