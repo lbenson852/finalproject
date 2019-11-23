@@ -1,1 +1,93 @@
-hi
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+  }
+  
+  .skip a:focus{
+    top: 10px;
+  }
+
+h1{
+   font-family: Helvetica;
+   font-weight: bold;
+   font-size: 2em;
+   text-align: center;
+   padding-top: 5%;
+}
+header p{
+    font-family: Arial;
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+nav a{
+    text-decoration: none;
+    color: gray;
+}
+
+nav {
+font-family: Helvetica;
+font-style: normal;
+font-size: 1em;
+padding: 0;
+text-align: center;
+margin: auto;
+width:100%;
+    }
+nav li{
+    display: inline-block;
+    padding: 2%;
+}
+
+.index-container{
+    display: grid;
+    grid-template-columns: 20px auto  auto 20px;
+    grid-template-rows:  auto auto auto auto auto;
+    grid-row-gap: 2em;
+}
+
+h2{
+    grid-column: 2/4;
+    grid-row: 1;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+p{
+    margin: 0 0 10px;
+}
+.index-container img{
+    grid-column: 2/4;
+    grid-row: 2;
+}
+
+.about-text{
+    grid-column: 2/4;
+    grid-row: 3;
+}
+
+footer img{
+    max-width: 300px;
+}
+footer li{
+    display: inline-block;
+    padding: 2%;
+    font-family: Helvetica;
+    font-style: normal;
+    font-size: 1em;
+    padding: 0;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: gray;
+}
