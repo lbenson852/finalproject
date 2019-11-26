@@ -145,4 +145,162 @@ footer ul{
     grid-row: 7;
 }
 
+/* links styling starts here */
+.links-container{
+    display: grid;
+    grid-template-columns: 20px auto  auto 20px;
+    grid-template-rows:  auto auto auto auto auto;
+    grid-row-gap: 2em;
+}
+
+.links-container h3{
+    grid-column: 2/4;
+    grid-row: 1;
+}
+.links-container ul{
+    list-style-type: none;
+}
+
+.links-one-head{
+    grid-column: 2/4;
+    grid-row: 2;
+}
+
+.links-one{
+    grid-column: 2/4;
+    grid-row: 3;
+}
+.links-two-head{
+    grid-column: 2/4;
+    grid-row: 4;
+}
+
+.links-two{
+    grid-column: 2/4;
+    grid-row: 5;
+    padding-bottom: 2%;
+}
+
 /* research styling starts here */
+
+.research-container{
+    display: grid;
+    grid-template-columns: 20px auto  auto 20px;
+    grid-template-rows:  auto auto auto auto auto;
+    grid-row-gap: 2em;
+}
+.research-container h2{
+    grid-column: 2/4;
+    grid-row: 1;
+}
+.openings{
+    grid-column: 2/4;
+    grid-row: 2;
+}
+
+.philosophy-research{
+    grid-column: 2/4;
+    grid-row: 3;
+}
+
+.active-research {
+    grid-column: 2/4;
+    grid-row: 4;
+}
+
+.past-active {
+    grid-column: 2/4;
+    grid-row: 5;
+}
+
+
+/* tandem styling starts here */
+
+.tandem-container{
+    display: grid;
+    grid-template-columns: 20px auto  auto 20px;
+    grid-template-rows:  auto auto auto auto auto;
+    grid-row-gap: 2em;
+}
+.tandem-container h2{
+    grid-column: 2/4;
+    grid-row: 1;
+}
+
+.tandem-container img{
+    grid-column: 2/4;
+    grid-row: 2;
+}
+.tandem-text{
+    grid-column: 2/4;
+    grid-row: 3;
+}
+.tandem-text{
+    grid-column: 2/4;
+    grid-row: 3;
+}
+.tandem-list{
+    grid-column: 2/4;
+    grid-row: 4;
+}
+.youtube-vid{
+    grid-column: 2/4;
+    grid-row: 5;
+}
+.tandem-more{
+    grid-column: 2/4;
+    grid-row: 6;
+}
+
+/* teaching style starts here */
+
+.teaching-container{
+    display: grid;
+    grid-template-columns: 20px auto  auto 20px;
+    grid-template-rows:  auto auto auto auto auto auto auto auto auto auto;
+    grid-row-gap: 2em;
+}
+
+.teaching-container h2{
+    grid-column: 2/4;
+    grid-row: 1;
+}
+
+.agent-carter-image{
+    grid-column: 2/4;
+    grid-row: 2;
+}
+
+.philosophy{
+    grid-column: 2/4;
+    grid-row: 3;
+}
+.current-courses{
+    grid-column: 2/4;
+    grid-row: 4;
+}
+.engr-100{
+    grid-column: 2/4;
+    grid-row: 5;
+}
+.engr-100-image{
+    grid-column: 2/4;
+    grid-row: 6;
+}
+.engr-101{
+    grid-column: 2/4;
+    grid-row: 7;
+}
+
+.engr-101-image{
+    grid-column: 2/4;
+    grid-row: 8;
+}
+.past-courses{
+    grid-column: 2/4;
+    grid-row: 9; 
+}
+.hydro-statics{
+    grid-column: 2/4;
+    grid-row: 10; 
+}
