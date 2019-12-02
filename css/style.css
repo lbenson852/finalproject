@@ -155,16 +155,18 @@ footer ul {
 /* links styling starts here */
 .links-container{
     display: grid;
-    grid-template-columns: 1fr 7fr 1fr;
+    grid-template-columns: 1fr 300px 1fr;
     grid-template-rows:  auto auto auto auto auto;
     grid-row-gap: 2em;
+    text-align: center;
 }
 .links-container h2{
-  text-align: center;
+  grid-column: 2/3;
+  grid-row: 1
 }
-.links-container h3{
+.links-container h4{
     grid-column: 2/3;
-    grid-row: 1;
+    grid-row: 2;
     text-align: center;
 }
 
@@ -185,7 +187,7 @@ footer ul {
     text-align: center;
 }
 .owl-carousel{
-  grid-column: 2/-1;
+  grid-column: 2/3;
   grid-row: 3;
 }
 
