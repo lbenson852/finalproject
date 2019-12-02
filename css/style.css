@@ -12,6 +12,17 @@
 .skip a:focus {
   top: 10px;
 }
+a{
+  color: #406C8F;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+
+}
+li{
+  color: #192849;
+  font-family: 'Open Sans', sans-serif;
+  
+}
 
 h1 {
   color: #192849;
@@ -75,6 +86,7 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: bolder;
   font-size: 1.5em;
+  padding: 2%;
 }
 h3{
   color: #192849;
@@ -148,6 +160,11 @@ footer ul {
     grid-row: 2;
     width: 500px;
   }
+  .index-container h2{
+    text-align: center;
+    grid-row: 1;
+    grid-column: 2/4;
+  }
   .about-text {
     grid-column: 3;
     grid-row: 2;
@@ -161,13 +178,21 @@ footer ul {
   }
   h2{
     font-size: 2em;
+    text-align: center;
   }
   h1{
     font-size: 2.5em;
   }
+  h3{
+    font-size: 1.5em;
+  }
+  h4{
+    font-size: 1.25em;
+  }
   .cvcontainer {
     grid-column-gap: 2em;
 }
+  
 
 /* CV styling starts here */
 
