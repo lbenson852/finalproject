@@ -156,7 +156,7 @@ footer ul {
 .links-container{
     display: grid;
     grid-template-columns: 1fr 300px 1fr;
-    grid-template-rows:  auto auto auto auto auto;
+    grid-template-rows:  auto auto auto auto auto auto;
     grid-row-gap: 2em;
     text-align: center;
 }
@@ -164,31 +164,33 @@ footer ul {
   grid-column: 2/3;
   grid-row: 1
 }
-.links-container h4{
-    grid-column: 2/3;
-    grid-row: 2;
-    text-align: center;
+.owl-carousel{
+  grid-column: 2/3;
+  grid-row: 2;
 }
-
-
-/* .links-two-head{
+.links-one-head{
+    grid-column: 2/3;
+    grid-row: 3;
+}
+.links-one{
     grid-column: 2/3;
     grid-row: 4;
 }
-
-.links-two{
+.links-two-head{
     grid-column: 2/3;
     grid-row: 5;
-    padding-bottom: 2%;
-} */
-.links-one-head{
-    grid-column: 2/3;
-    grid-row: 2;
-    text-align: center;
 }
-.owl-carousel{
-  grid-column: 2/3;
-  grid-row: 3;
+.links-two{
+    grid-column: 2/3;
+    grid-row: 6;
+    padding-bottom: 2%;
+}
+.links-container ul{
+  list-style: none;
+  text-align: left;
+}
+.links-container ul li{
+  padding: 20px 0;
 }
 
 /* research styling starts here */
