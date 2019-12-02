@@ -153,39 +153,40 @@ footer ul {
 }
 
 /* links styling starts here */
-.links-container {
-  display: grid;
-  grid-template-columns: 20px auto auto 20px;
-  grid-template-rows: auto auto auto auto auto;
-  grid-row-gap: 2em;
+.links-container{
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+    grid-template-rows:  auto auto auto auto auto;
+    grid-row-gap: 2em;
+}
+.links-container h2{
+  text-align: center;
+}
+.links-container h3{
+    grid-column: 2/3;
+    grid-row: 1;
+    text-align: center;
 }
 
-.links-container h3 {
-  grid-column: 2/4;
-  grid-row: 1;
-}
-.links-container ul {
-  list-style-type: none;
+
+/* .links-two-head{
+    grid-column: 2/3;
+    grid-row: 4;
 }
 
-.links-one-head {
-  grid-column: 2/4;
-  grid-row: 2;
+.links-two{
+    grid-column: 2/3;
+    grid-row: 5;
+    padding-bottom: 2%;
+} */
+.links-one-head{
+    grid-column: 2/3;
+    grid-row: 2;
+    text-align: center;
 }
-
-.links-one {
-  grid-column: 2/4;
+.owl-carousel{
+  grid-column: 2/-1;
   grid-row: 3;
-}
-.links-two-head {
-  grid-column: 2/4;
-  grid-row: 4;
-}
-
-.links-two {
-  grid-column: 2/4;
-  grid-row: 5;
-  padding-bottom: 2%;
 }
 
 /* research styling starts here */
