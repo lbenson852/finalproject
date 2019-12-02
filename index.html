@@ -10,7 +10,7 @@
   <body>
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
-      <h1>Laura K. Alford</h1>
+      <h1 id="jvs"></h1>
       <p>Lecturer and Research Investigator at U-M</p>
     </header>
     <nav id="navigation">
@@ -75,6 +75,20 @@
       </ul>
       <img src="images/logo.gif" alt="U-M Logo" />
     </footer>
+
+    <script>
+      var i = 0;
+      var txt = "Laura K. Alford";
+      var speed = 80;
+
+      function typeWriter() {
+        if (i < txt.length) {
+          document.getElementById("jvs").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+      }
+    </script>
     <script>
       const nav = document.querySelector("#navigation");
       const navTop = nav.offsetTop;
