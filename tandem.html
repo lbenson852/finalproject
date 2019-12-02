@@ -13,7 +13,7 @@
       <h1>Laura K. Alford</h1>
       <p>Lecturer and Research Investigator at U-M</p>
     </header>
-    <nav>
+    <nav id = "navigation">
       <ul>
         <li>
           <a href="index.html"> About </a>
@@ -165,7 +165,7 @@
       <img src="images/logo.gif" alt="U-M Logo" />
       <ul>
         <li><a href="mailto:lslavice@umich.edu">Email</a></li>
-        <li>
+         <li>
           <a href="https://www.linkedin.com/in/laura-k-alford-a7b4583b">
             LinkedIn</a
           >
@@ -174,5 +174,25 @@
       </ul>
     </div>
     </footer>
+    <script>
+        const nav = document.querySelector("#navigation");
+        const navTop = nav.offsetTop;
+  
+        function stickyNavigation() {
+          console.log("navTop = " + navTop);
+          console.log("scrollY = " + window.scrollY);
+  
+          if (window.scrollY >= navTop) {
+            document.body.style.paddingTop = nav.offsetHeight + "px";
+            document.body.classList.add("fixed-nav");
+          } else {
+            document.body.style.paddingTop = 0;
+            document.body.classList.remove("fixed-nav");
+          }
+        }
+  
+        window.addEventListener("scroll", stickyNavigation);
+      </script>
+    
   </body>
 </html>
