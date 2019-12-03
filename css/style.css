@@ -115,6 +115,10 @@ p {
   grid-column: 2/4;
   grid-row: 2;
 }
+.index-container h2 {
+  grid-row: 1;
+  grid-column: 2/4;
+}
 
 .about-text {
   grid-column: 2/4;
