@@ -378,9 +378,10 @@ footer ul {
 
 .teaching-container {
   display: grid;
-  grid-template-columns: 20px auto auto 20px;
+  grid-template-columns: 600px 20px;
   grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
   grid-row-gap: 2em;
+  padding-left: 50px;
 }
  
 /* .teaching-container h2 {
@@ -389,47 +390,47 @@ footer ul {
 } */
 
 .agent-carter-image {
-  grid-column: 3;
+  grid-column: 2;
   grid-row: 3;
   padding-left: 170px;
   padding-top: 30px;
 }
 
 .philosophy {
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 3;
 }
 .current-courses {
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 4;
 }
 .engr-100 {
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 5;
 }
 .engr-100-image {
-  grid-column: 3;
+  grid-column: 2;
   grid-row: 5;
   padding-left: 50px;
   padding-top: 50px;
 }
 .engr-101 {
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 6;
 }
 
 .engr-101-image {
-  grid-column: 3;
+  grid-column: 2;
   grid-row: 6;
-  padding-left: 1300px;
+  padding-left: 130px;
   padding-top: 90px;
 }
 .past-courses {
-  grid-column: 2/4;
+  grid-column: 1/2;
   grid-row: 9;
 }
 .hydro-statics {
-  grid-column: 2/4;
+  grid-column: 1/2;
   grid-row: 10;
 }
 
