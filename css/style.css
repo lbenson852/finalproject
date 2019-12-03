@@ -21,7 +21,7 @@ a{
 li{
   color: #192849;
   font-family: 'Open Sans', sans-serif;
-  
+
 }
 
 h1 {
@@ -196,7 +196,7 @@ footer ul {
   .cvcontainer {
     grid-column-gap: 2em;
 }
-  
+
 
 /* CV styling starts here */
 
@@ -250,7 +250,7 @@ footer ul {
 .links-container h2{
   padding-top: 20px;
   grid-column: 2/4;
-  grid-row: 1
+  grid-row: 1;
 }
 .owl-carousel{
   grid-column: 2/4;
@@ -452,4 +452,3 @@ footer ul {
   grid-column: 2/4;
   grid-row: 7;
 }
-
