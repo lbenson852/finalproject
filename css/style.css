@@ -378,8 +378,7 @@ footer ul {
 
 .teaching-container {
   display: grid;
-  grid-template-columns: auto auto ;
-  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns:auto auto;
   grid-row-gap: 2em;
 }
 .grid-item {
