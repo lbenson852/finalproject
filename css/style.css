@@ -441,7 +441,7 @@ h1 {
 
 .teaching-container {
   display: grid;
-  grid-template-columns: 20px auto 30% 0px;
+  grid-template-columns: 20px 1fr 1fr 20px;
   grid-template-rows: auto auto auto auto auto auto auto auto;
   grid-row-gap: 2em;
   grid-column-gap: 2em;
@@ -503,7 +503,6 @@ h1 {
   .hydrolics-image {
     grid-column: 3;
     grid-row: 8;
-    width: 600px;
   }
 }
 /* engr 100 course description style starts here */
