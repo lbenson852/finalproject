@@ -148,6 +148,9 @@ footer ul {
   margin: auto;
   text-align: center;
 }
+#small img{
+  max-width: 150px;
+}
 
 @media screen and (min-width: 800px){
   .index-container {
