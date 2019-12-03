@@ -84,6 +84,7 @@ h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 1.5em;
   padding: 2%;
+  font-weight: normal;
 }
 h3 {
   color: black;
@@ -511,4 +512,7 @@ h1 {
 .question {
   grid-column: 2/4;
   grid-row: 7;
+}
+h2{
+  font-weight: normal;
 }
