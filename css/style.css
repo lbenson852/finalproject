@@ -391,6 +391,8 @@ footer ul {
 .agent-carter-image {
   grid-column: 3;
   grid-row: 3;
+  padding-left: 170px;
+  padding-top: 30px;
 }
 
 .philosophy {
@@ -408,6 +410,8 @@ footer ul {
 .engr-100-image {
   grid-column: 3;
   grid-row: 5;
+  padding-left: 50px;
+  padding-top: 50px;
 }
 .engr-101 {
   grid-column: 2;
@@ -417,6 +421,8 @@ footer ul {
 .engr-101-image {
   grid-column: 3;
   grid-row: 6;
+  padding-left: 1300px;
+  padding-top: 90px;
 }
 .past-courses {
   grid-column: 2/4;
