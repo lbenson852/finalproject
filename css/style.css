@@ -422,37 +422,17 @@ h1 {
 
 /* teaching style starts here */
 @media screen and (min-width: 800px) {
-  .teaching-container {
-    display: grid;
-    grid-template-columns: 20px auto auto 20px;
-    grid-template-rows: auto auto auto auto auto auto auto auto;
-    grid-row-gap: 2em;
-    grid-column-gap: 2em;
-    padding-left: 50px;
-  }
-  .teaching-container img {
-    width: 50%;
-  }
-
-  .teaching-container h2 {
-    grid-column: 2;
-    grid-row: 1;
-  }
-  .philosophy h3 {
-    grid-column: 2;
-    grid-row: 2;
-  }
 
 .teaching-container {
   display: grid;
-  grid-template-columns: 20px 1fr 1fr 20px;
+  grid-template-columns: 20px auto 600px 0px;
   grid-template-rows: auto auto auto auto auto auto auto auto;
   grid-row-gap: 2em;
   grid-column-gap: 2em;
-  padding-left: 50px;
 }
 .teaching-container img{
-  width: 60%;
+  width: 50%;
+
 }
 
 .teaching-container h2 {
@@ -536,4 +516,40 @@ h1 {
 }
 h2 {
   font-weight: normal;
+}
+
+
+@media screen and (min-width: 800px) {
+  .tandem-container{
+    display: grid;
+    grid-template-columns: 20px auto 500px 20px;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-row-gap: 2em;
+    grid-column-gap: 2em;
+  }
+  .tandem-container h2{
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .tandem-container img{
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 200px;
+    margin: auto;
+  }
+  .youtube-vid{
+    grid-column: 2/4;
+   grid-row: 3;
+   text-align: center;
+  }
+ .tandem-text{
+   grid-column: 3;
+   grid-row: 2;
+   padding-top: 5%;
+ }
+ .tandem-list{
+  grid-column: 2/4;
+  grid-row: 4;
+ }
+  
 }
